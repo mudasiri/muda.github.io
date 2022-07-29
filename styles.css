@@ -1,0 +1,42 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+	.introtext{
+
+		text-align: center;
+	}
+
+	ol li{
+		display: inline;
+		text-transform: uppercase;
+		padding : 10px;
+	}
+
+	.heroimage{
+		background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('team.jpeg');
+		min-height: 600px;
+		background-size: cover;
+		color: white;
+		text-align: center;
+
+	}
+
+	img{
+		float: left;
+		margin-right: 15px;
+	}
+
+	.container{
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+	}
+
+	footer{
+		text-align: center;
+		background-color: tomato;
+		color: white;
+		padding: 15px;
+	}
